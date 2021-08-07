@@ -1,0 +1,46 @@
+body {
+    background-color: #4682B4;
+
+}
+
+aside {
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:999;
+    display:flex;
+}
+
+#abrir-menu {
+    width: 40px;
+    height:40px;
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#menuarea {
+    width: 200px;
+    height:100vh;
+    background-color: #87CEEB; 
+    overflow-x:hidden;
+    overflow-y: auto;
+    transition: all ease .5s;
+}
+
+#menuarea ul, #menuarea li {
+    padding: 0;
+    list-style: none;
+}
+
+#menuarea li {
+    display:block;
+    padding: 10px;
+    color: #2F4F4F;
+    cursor: pointer;
+}
+
+#menuarea li:hover {
+    background-color: #4682B4
+}
+
